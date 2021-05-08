@@ -32,19 +32,19 @@
             <nav>
                 <ul class="flex item-center nav-menu">
                     <li class="nav-menu-item">
-                        <a class="active" href="#">HOME</a>
+                        <a class="active" href="#home">HOME</a>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="#">ABOUT</a>
+                        <a href="#about">ABOUT</a>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="#">CLASSES</a>
+                        <a href="#classes">CLASSES</a>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="#">SHEDULE</a>
+                        <a href="#schedule">SCHEDULE</a>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="#">CONTACT</a>
+                        <a href="#contact">CONTACT</a>
                     </li>
                     <li class="nav-menu-item">
                         <a class="btn" href="#">SIGN UP</a>
@@ -95,7 +95,7 @@
                             <img src="assets/media/tabs-first-icon.png" alt="">
                         </div>
                         <div class="program-item">
-                            <h3>Basic Fitness</h3>
+                            <h3>New Gym Training</h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Nobis doloribus natus alias sit, hic facere necessitati.
@@ -109,7 +109,7 @@
                             <img src="assets/media/tabs-first-icon.png" alt="">
                         </div>
                         <div class="program-item">
-                            <h3>Basic Fitness</h3>
+                            <h3>Basic Muscle Course</h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Nobis doloribus natus alias sit, hic facere necessitati.
@@ -124,7 +124,7 @@
                             <img src="assets/media/tabs-first-icon.png" alt="">
                         </div>
                         <div class="program-item">
-                            <h3>Basic Fitness</h3>
+                            <h3>Advance Muscle Course</h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Nobis doloribus natus alias sit, hic facere necessitati.
@@ -137,7 +137,7 @@
                             <img src="assets/media/tabs-first-icon.png" alt="">
                         </div>
                         <div class="program-item">
-                            <h3>Basic Fitness</h3>
+                            <h3>Yoga Tranning</h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Nobis doloribus natus alias sit, hic facere necessitati.
@@ -150,7 +150,7 @@
                             <img src="assets/media/tabs-first-icon.png" alt="">
                         </div>
                         <div class="program-item">
-                            <h3>Basic Fitness</h3>
+                            <h3>Body Building Course</h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Nobis doloribus natus alias sit, hic facere necessitati.
@@ -175,7 +175,7 @@
                 </div>
             </div>
         </section>
-        <section class="padding">
+        <section id="classes" class="padding">
             <div class="contaier">
                 <header class="sec-header">
                     <h2 class="headig">OUR <strong class="text-primary">CLASSES</strong></h2>
@@ -197,19 +197,19 @@
                         <li class="classes-item">
                             <a class="flex item-center justify-center" href="#">
                                 <img src="assets/media/tabs-first-icon.png" alt="">
-                                <h4>First Tranning class</h4>
+                                <h4>Second Tranning class</h4>
                             </a>
                         </li>
                         <li class="classes-item">
                             <a class="flex item-center justify-center" href="#">
                                 <img src="assets/media/tabs-first-icon.png" alt="">
-                                <h4>First Tranning class</h4>
+                                <h4>Third Tranning class</h4>
                             </a>
                         </li>
                         <li class="classes-item">
                             <a class="flex item-center justify-center" href="#">
                                 <img src="assets/media/tabs-first-icon.png" alt="">
-                                <h4>First Tranning class</h4>
+                                <h4>Fourth Tranning class</h4>
                             </a>
                         </li>
                     </ul>
@@ -228,7 +228,7 @@
             </div>
             </div>
         </section>
-        <section class="padding schedule">
+        <section id="schedule" class="padding schedule">
             <div class="contaier">
                 <header class="sec-header">
                     <h2 class="headig">CLASSES <strong class="text-primary">SCHEDULE</strong></h2>
@@ -384,31 +384,38 @@
                 </article>
             </div>
         </section>
-        <section>
+        <section id="contact" class="flex contaier">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13503.678733325312!
                     2d76.3535986!3d32.2063948!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x71ff0cae0784712d!
                     2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1620495542908!5m2!1sen!2sin" class="flex-50"
-                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                     width="600" style="border:0;" allowfullscreen="" loading="lazy">
             </iframe>
             <div class="flex-50 form-container">
                 <form action="">
                     <fieldset>
-                        <div>
-                            <input 
+                        <div class="flex justify-bw">
+                            <input class="form-control flex-45 name-input" 
                             name="name" 
                             type="text" 
                             placeholder="Your Name*" required>
-                            <input 
+                            <input class="form-control flex-45"  
                             name="email" 
                             type="email" 
                             placeholder="Your Email*"required>
                         </div>
-                        <input name="subject" type="text" placeholder="Subject">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <input class="form-control"  name="subject" type="text" placeholder="Subject">
+                        <textarea class="form-control"  name="Massage" id="" rows="6" placeholder="Massage"></textarea>
                     </fieldset>
                 </form>
             </div>
         </section>
     </main>
+    <footer class="footer text-center">
+        <div class="container">
+            <small>
+                Copyright &copy;2020 Training Studio Design by <strong class="text-primary">Templatemo</strong>
+            </small>
+        </div>
+    </footer>
 </body>
 </html>
